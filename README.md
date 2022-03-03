@@ -1,4 +1,4 @@
-# wordle-javascript
+# wordle-javascript (songle a wordle clone)
 A Game of Wordle with 5-letter songs
 Forked project.
 I made few changes on it. I added javascript map for song names and artist. 
@@ -8,6 +8,8 @@ It creates random number from array's length and pick random word from array.
 User has 6 lives to find the right answer.
 When user finds the correct answer, popup window shows song, artist name and
 song's link to youtube search.
+
+[PLAY SONGLE](https://songle.netlify.app/)
 
 ### MIT Licence
 
