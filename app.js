@@ -277,6 +277,7 @@ let random_number = Math.floor(Math.random() * upWordle.length);
 let artist = upArtist[random_number]
 let wordle = upWordle[random_number]
 
+console.log(wordle)
 const keys = [
     'Q',
     'W',
@@ -318,7 +319,9 @@ const guessRows = [
 let currentRow = 0
 let currentTile = 0
 let isGameOver = false
-let shareMsg = wordle + " is the song by " + artist
+let shareMsg = "CONGRATULATIONS\n" +
+"\n" +
+wordle + " is the song by " + artist
 let link = "https://www.youtube.com/results?search_query=" + wordle + "+" + artist
 let shareString = ""
 let info =
@@ -493,7 +496,7 @@ const darkMode = () => {
 
 const infoPopup = () => {
     document.getElementById('results').textContent = 
-    "INSTRUCTIONS\n"+
+    "INSTRUCTIONS"+
     "\n"+
     "\nGuess the SONGLE in six tries." +
     "\nEach guess must be a valid five-letter word. Hit the enter button to submit. " +  
@@ -502,7 +505,6 @@ const infoPopup = () => {
     "\n\u{2B1B} means letter is not in the word in any spot. "+
     "\n\u{1F7E8} means letter is in the word but in the wrong spot. "
     document.getElementById('resultLogo').classList.add("hidden")
-    document.getElementById('resultTitle').classList.add("hidden")
     var box = document.getElementById('endContainer');
     box.style.display = 'block';
 }
