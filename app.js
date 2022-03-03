@@ -277,7 +277,6 @@ let random_number = Math.floor(Math.random() * upWordle.length);
 let artist = upArtist[random_number]
 let wordle = upWordle[random_number]
 
-console.log(wordle)
 const keys = [
     'Q',
     'W',
