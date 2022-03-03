@@ -12,15 +12,18 @@
 
     <div class="game-container">
         <div class="title-container">
-            <h1>Songle</h1> <h2><button onclick="darkMode()" class="bi bi-moon-stars-fill" ></button></h2>
+            <h1>Songle</h1> <h2 id="dark"><button onclick="darkMode()" class="bi bi-moon-stars-fill" ></button></h2>
+            <h2 id="info"><button onclick="infoPopup()" class="bi bi-info-square-fill"></button></h2>
         </div>
         <div class="message-container"></div>
         <div class="tile-container"></div>
         <div class="key-container"></div>
         <div class="container" id="endContainer">
-            <h1 id=resultTitle>CONGRATULATIONS!</h1>
+            <h1 id=resultTitle>CONGRATULATIONS!</h1><i onclick="closePopup()" id="close" class="bi bi-x-circle-fill"></i>
             <a href="" target="_blank" id=resultLogo><img src="yt.png" width="64px" height="64px" alt="Listen on Youtube"></a>
-            <h1 id=results>Results</h1>
+            <p id=results>Results
+               
+            </p>
         </div>
     </div>
     <footer class="footer"> Wordle Clone for Five-Letter Songs 2022 &copy;
@@ -29,7 +32,7 @@
                 class="bi bi-instagram footer instagram"></i></i></a>
     </footer>
 
-    <script src="app.js"></script>
+        <script src="app.js"></script>
 </body>
 
 </html>

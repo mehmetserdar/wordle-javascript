@@ -319,7 +319,8 @@ let currentTile = 0
 let isGameOver = false
 let shareMsg = wordle + " is the song by " + artist
 let link = "https://www.youtube.com/results?search_query=" + wordle + "+" + artist
-let shareString = "";
+let shareString = ""
+let info =
 
 guessRows.forEach((guessRow, guessRowIndex) => {
     const rowElement = document.createElement('div')
@@ -475,5 +476,33 @@ const flipTile = () => {
 
 const darkMode = () => {
     var element = document.body;
-    element.classList.toggle("dark-mode");
+    var g = document.querySelector(".tile-container")
+    var t = document.querySelector("h1")
+    var f = document.querySelector("footer")
+    element.classList.toggle("dark-mode")
+    g.classList.toggle("dark-mode")
+    t.classList.toggle("dark-mode")
+    f.classList.toggle("dark-mode")
+}
+
+
+const infoPopup = () => {
+    document.getElementById('results').textContent = 
+    "INSTRUCTIONS\n"+
+    "\n"+
+    "\nGuess the SONGLE in six tries." +
+    "\nEach guess must be a valid five-letter word. Hit the enter button to submit. " +  
+    "\nAfter each guess, the color of the tiles will change to show how close your guess was to the word. " +
+    "\n\u{1F7E9} means letter is in the word and in the correct spot."+
+    "\n\u{2B1B} means letter is not in the word in any spot. "+
+    "\n\u{1F7E8} means letter is in the word but in the wrong spot. "
+    document.getElementById('resultLogo').classList.add("hidden")
+    document.getElementById('resultTitle').classList.add("hidden")
+    var box = document.getElementById('endContainer');
+    box.style.display = 'block';
+}
+
+const closePopup = () => {
+    var box = document.getElementById('endContainer');
+    box.style.display = 'none';
 }

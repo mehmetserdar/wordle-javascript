@@ -16,13 +16,25 @@ h1 {
     color: #3a3a3c;
 }
 
-h2{
+#dark{
     color: #3a3a3c;
     position: absolute;
     top: 0.5vh;
     right: 0.5vh;
   
   
+}
+
+#info{
+    color: #3a3a3c;
+    position: absolute;
+    top: 0.5vh;
+    right: 4.5vh;
+  
+  
+}
+.hidden{
+    display: none;
 }
 
 a {
@@ -154,18 +166,25 @@ a:hover {
 
 #results {
     position: absolute;
-    top: 25%;
     padding: 15px;
     white-space: pre-wrap;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #161616;
+}
+
+#close {
+    position: absolute;
+    padding-left: 15px;
+    white-space: pre-wrap;
+    font-size: 20px;    
+    color: #161616;
 }
 
 
 #resultTitle {
-    position: absolute;
     align-items: center;
     justify-content: center;
     left: 25%;
@@ -195,8 +214,6 @@ a:hover {
 .instagram {
     color: rgb(131, 58, 180);
 }
-
-
 
 
 .tile.flip {
@@ -268,7 +285,7 @@ a:hover {
 
   .dark-mode{
     background-color: #161616 !important ;
-    color: #ddd !important;
+    color: #ccc !important;
   }
 
   button{
