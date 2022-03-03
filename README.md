@@ -1,6 +1,5 @@
 # wordle-javascript
 A Game of Wordle with 5-letter songs
-
 Forked project.
 I made few changes on it. I added javascript map for song names and artist. 
 I also added dictionary for checking words. Original repo is using apis for 
@@ -21,3 +20,7 @@ The above copyright notice and this permission notice shall be included in all c
 *Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dae72853-2696-479e-bc43-f73c48d2f051/deploy-status)](https://app.netlify.com/sites/songle/deploys)
