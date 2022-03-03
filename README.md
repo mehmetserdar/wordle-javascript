@@ -1,38 +1,14 @@
 # wordle-javascript
-A Game of Wordle with the benefit of 2x API from RapidAPI
+A Game of Wordle with 5-letter songs
 
-
-# Getting Started
-
-To start this project please go to RapidAPI to sign up for the [APIs](https://bit.ly/rapidapi-hub). 
-
-Follow the steps in the tutorial [here](https://www.youtube.com/watch?v=mpby4HiElek) on which APIs to use and how to use them.
-
-
-
-### `.env`
-Now create a `.env` file in the root of your project with the following:
-
-```
-RAPID_API_KEY={your_rapid_api_key}
-```
-
-To run this project please type the following commands:
-
-### `npm i`
-
-This will install all the necessary dependencies.
-
-### `npm run start:backend`
-
-This will start the backend on  [http://localhost:8000](http://localhost:8000).
-
-### `copy the path to your index.html file`
-
-Copy the path to this file and paste it in your browser to see the game and play.
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
+Forked project.
+I made few changes on it. I added javascript map for song names and artist. 
+I also added dictionary for checking words. Original repo is using apis for 
+gettting words. My app doesn't use any of them.
+It creates random number from array's length and pick random word from array.
+User has 6 lives to find the right answer.
+When user finds the correct answer, popup window shows song, artist name and
+song's link to youtube search.
 
 ### MIT Licence
 
