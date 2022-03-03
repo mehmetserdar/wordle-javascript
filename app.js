@@ -1,6 +1,7 @@
 const tileDisplay = document.querySelector('.tile-container')
 const keyboard = document.querySelector('.key-container')
 const messageDisplay = document.querySelector('.message-container')
+const darkDisplay = document.querySelector('#dark')
 
 const dict = new Map([
     ['Little Mix', 'Wings'],
@@ -470,4 +471,9 @@ const flipTile = () => {
             }
         }, 500 * index)
     })
+}
+
+const darkMode = () => {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
 }

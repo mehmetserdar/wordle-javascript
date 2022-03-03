@@ -16,6 +16,14 @@ h1 {
     color: #3a3a3c;
 }
 
+h2{
+    color: #3a3a3c;
+    position: absolute;
+    top: 0.5vh;
+    right: 0.5vh;
+  
+  
+}
 
 a {
     color: #3a3a3c;
@@ -224,4 +232,48 @@ a:hover {
 .green-overlay {
     background-color: #00d26a !important;
     border: none !important;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) {
+    .game-container {
+    /*background-color: #161616;*/
+    zoom: 1.9;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) { 
+    .game-container {
+        /*background-color: #161616;*/
+        zoom: 1.7;
+        }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) { 
+    .game-container {
+        /*background-color: #161616;*/
+        zoom: 1.2;
+        }
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) {
+    .game-container {
+        /*background-color: #161616;*/
+        zoom: 0.9;
+        }
+  }
+
+  .dark-mode{
+    background-color: #161616 !important ;
+    color: #ddd !important;
+  }
+
+  button{
+    color: #fff;
+    background-color: #000;
+    border-color: #222;
+    text-transform: uppercase;
 }
