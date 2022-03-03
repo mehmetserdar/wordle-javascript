@@ -276,6 +276,7 @@ const upCheckwords = checkwords.map(word => word.toUpperCase());
 let random_number = Math.floor(Math.random() * upWordle.length);
 let artist = upArtist[random_number]
 let wordle = upWordle[random_number]
+
 const keys = [
     'Q',
     'W',
@@ -479,10 +480,14 @@ const darkMode = () => {
     var g = document.querySelector(".tile-container")
     var t = document.querySelector("h1")
     var f = document.querySelector("footer")
+    var r = document.querySelector(".container")
+    var y = document.querySelector("#ytlogo")
     element.classList.toggle("dark-mode")
     g.classList.toggle("dark-mode")
     t.classList.toggle("dark-mode")
     f.classList.toggle("dark-mode")
+    r.classList.toggle("dark-mode")
+    y.classList.toggle("dark-mode")
 }
 
 

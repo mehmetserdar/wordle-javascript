@@ -1,9 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
-* {
-    color: #ffffff;
+* {    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif;
+    'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -12,9 +11,7 @@ body {
     background-size: 300px 300px;
 }
 
-h1 {
-    color: #3a3a3c;
-}
+
 
 #dark{
     color: #3a3a3c;
@@ -108,6 +105,7 @@ a:hover {
     border: none;
     background-color: #818384;
     margin: 4px;
+    
 }
 
 .key-container button:nth-child(11) {
@@ -129,6 +127,7 @@ a:hover {
     border: 3px solid#3a3a3c;
     box-sizing: border-box;
     background-color: #1da8e9;
+    color: #fff;
 
     display: flex;
     justify-content: center;
@@ -162,17 +161,19 @@ a:hover {
     justify-content: center;
     padding: 16px 0;
     border: 3px solid#3a3a3c;
+    color: #161616;
 }
 
 #results {
     position: absolute;
     padding: 15px;
+    margin-top: 75px;
     white-space: pre-wrap;
     font-size: 18px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #161616;
+    
 }
 
 #close {
@@ -180,15 +181,14 @@ a:hover {
     padding-left: 15px;
     white-space: pre-wrap;
     font-size: 20px;    
-    color: #161616;
+    
 }
 
 
-#resultTitle {
-    align-items: center;
-    justify-content: center;
-    left: 25%;
-    text-align: center;
+#resultTitle {       
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-top: 20px;    
     font-size: 20px;
 }
 
@@ -196,8 +196,9 @@ a:hover {
     position: absolute;
     align-items: center;
     justify-content: center;
-    left: 36%;
+    left: 40%;
     text-align: center;
+    font-size: xx-large;
     border: 3px solid#3a3a3c;
     padding: 10px;
 
