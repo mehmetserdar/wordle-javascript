@@ -1,6 +1,6 @@
 # wordle-javascript
 A Game of Wordle with 5-letter songs
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dae72853-2696-479e-bc43-f73c48d2f051/deploy-status)](https://app.netlify.com/sites/songle/deploys)
 Forked project.
 I made few changes on it. I added javascript map for song names and artist. 
 I also added dictionary for checking words. Original repo is using apis for 
