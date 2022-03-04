@@ -274,6 +274,15 @@ const upWordle = Array.from(dict.values()).map(word => word.toUpperCase());
 const upArtist = Array.from(dict.keys()).map(word => word.toUpperCase());
 const upCheckwords = checkwords.map(word => word.toUpperCase());
 let random_number = Math.floor(Math.random() * upWordle.length);
+// var now = new Date();
+// var start = new Date(now.getFullYear(), 0, 0);
+// var diff = now - start;
+// var oneDay = 1000 * 60 * 60 * 24;
+// var day = Math.floor(diff / oneDay);
+// let artist = upArtist[day - 63]
+// let wordle = upWordle[day - 63] 
+// This gives random song for each day. It is minus 63 because 
+// today was 63th day of the year. And it starts from 0 in the array.
 let artist = upArtist[random_number]
 let wordle = upWordle[random_number]
 
@@ -305,7 +314,7 @@ const keys = [
     'B',
     'N',
     'M',
-    '«',
+    '\u{232B}',
 ]
 const guessRows = [
     ['', '', '', '', ''],
