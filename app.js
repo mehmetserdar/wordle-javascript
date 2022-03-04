@@ -356,7 +356,7 @@ keys.forEach(key => {
 
 const handleClick = (letter) => {
     if (!isGameOver) {
-        if (letter === '«') {
+        if (letter === '\u{232B}') {
             deleteLetter()
             return
         }
